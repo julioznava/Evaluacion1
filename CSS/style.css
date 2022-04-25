@@ -1,0 +1,188 @@
+body {
+  background-color: white;
+  margin: 30px;
+}
+
+/* Barra de navegacion */
+ul {
+  background-color: #FF1818;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 60px;
+}
+
+li {
+  float: right;
+  border-right: 2px solid #bbb
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #314665;
+}
+
+
+
+.container-logo {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+.img-logo {
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.title1 {
+  color: #FF1818;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sub1 {
+  color: #FF1818;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* foto*/
+.img-back {
+  background-color: inherit;
+  margin-top: 30px;
+}
+
+.img-background {
+  display: flex;
+  height: 446px;
+  background-size: cover;
+  opacity: 1;
+}
+
+/* foto texto*/
+.text {
+  bottom: 350px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  right: 250px;
+  position: relative;
+  text-align: center;
+}
+
+/* boton*/
+
+.buttom {
+  bottom: 400px;
+  margin: 100px;
+  padding: 30px;
+  position: relative;
+  left: 210px
+}
+
+.btn {
+  font-family: 'Merriweather Sans', sans-serif;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  position: relative;
+}
+
+.btn-1 {
+  background: #FF1818;
+  color: white;
+  border-radius: 20px;
+  transition: transform 0.3s
+}
+
+.btn-1:hover {
+  background-color: #314665;
+}
+
+
+.parrafo1 {
+  background-color: #EFF2F5;
+  position: absolute;
+  top: 800px;
+  right: 30px;
+  left: 30px;
+}
+
+.parrafo1, p {
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.parrafo2,p {
+  background-color: #EFF2F5;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.img-development {
+  display: flex;
+  height: 200px;
+  left: 550px;
+  position: relative;
+}
+
+.img-rol {
+  display: flex;
+  height: 200px;
+  left: 550px;
+  position: relative;
+}
+
+/* .foot footer{
+  margin: 0;
+  padding: 30px 50px;
+  border: 30px;
+} */
+.foot p{
+  margin: 30px;
+  padding: 20px 30px;
+  background-color: #314665;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.instagram  img{
+  height: 48px;
+  position: relative;
+  bottom: 85px;
+  left: 810px;
+}
+
+.facebook  img{
+  height: 40px;
+  position: relative;
+  bottom: 90px;
+  left: 808px;
+}
+
+.twitter  img{
+  height: 43px;
+  position: relative;
+  bottom: 88px;
+  left: 810px;
+}

@@ -1,0 +1,188 @@
+body {
+  background-color: white;
+  margin: 30px;
+}
+
+/* Barra de navegacion */
+ul {
+  background-color: #FF1818;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 60px;
+}
+
+li {
+  float: right;
+  border-right: 2px solid #bbb
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #314665;
+}
+
+
+
+.container-logo {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+.img-logo {
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.title1 {
+  color: #FF1818;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sub1 {
+  color: #FF1818;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  color: #314665;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+hr {
+  padding: 5px;
+  background-color: #FF1818;
+}
+
+.galeria {
+  margin: 35px ;
+  float: left;
+}
+.fotos1 img {
+  height: 300px;
+  width: 350px;
+  border-radius: 10%
+}
+
+.fotos1 p {
+  color: #314665;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fotos1:hover{
+  transform: scale(0.9);
+}
+
+
+.fotos2 img {
+  height: 300px;
+  width: 350px;
+  border-radius: 10%
+}
+
+.fotos2 p {
+  color: #314665;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold
+}
+
+.fotos2:hover{
+  transform: scale(0.9);
+}
+
+.fotos3 img {
+  height: 300px;
+  width: 350px;
+  border-radius: 10%
+}
+.fotos3 p {
+  color: #314665;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold
+}
+
+.fotos3:hover{
+  transform: scale(0.9);
+}
+
+.fotos4 img {
+  height: 300px;
+  width: 350px;
+  border-radius: 10%
+}
+
+.fotos4 p {
+  color: #314665;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold
+}
+
+.fotos4:hover{
+  transform: scale(0.9);
+}
+
+.fotos5 img {
+  height: 300px;
+  width: 350px;
+  border-radius: 10%
+}
+
+.fotos5 p {
+  color: #314665;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fotos5:hover{
+  transform: scale(0.9);
+}
+
+.fotos6 img {
+  height: 300px;
+  width: 350px;
+  border-radius: 10%
+}
+
+.fotos6 p {
+  color: #314665;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fotos6:hover{
+  transform: scale(0.9);
+}

@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+  margin: 30px;
+}
+
+/* Barra de navegacion */
+ul {
+  background-color: #FF1818;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  right: 60px;
+}
+
+li {
+  float: right;
+  border-right: 2px solid #bbb
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  padding: 12px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #314665;
+}
+
+hr {
+  padding: 5px;
+  background-color: #FF1818;
+}
+
+h1 {
+  color: #314665;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 1px;
+}
+
+
+
+.container-logo {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+.img-logo {
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.title1 {
+  color: #FF1818;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sub1 {
+  color: #FF1818;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* personas */
+
+.container {
+  padding: 150px;
+}
+
+
+.text1 {
+  color: #314665;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: left;
+  position: relative;
+  top: 6px;
+  right: 60px;
+}
+
+.text2 {
+  color: #314665;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+  right: 70px;
+}
+
+.text3 {
+  color: #314665;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 460px;
+  left: 390px;
+}
+
+.p1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  position: relative;
+  right: 80px;
+  text-align: left;
+  top: 265px;
+}
+
+.p2 {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 105px;
+  right: 65px;
+}
+
+.p3 {
+  font-family: Montserrat, sans-serif;
+  text-align: right;
+  position: relative;
+  bottom: 475px;
+  right: 20px;
+}
+
+.persona1 {
+  width: 240px;
+  position: absolute;
+  left: 82px;
+}
+
+.persona2 {
+  width: 265px;
+  position: relative;
+  left: 300px;
+  bottom: 100px;
+}
+
+.persona3{
+  height: 245px;
+  position: relative;
+  left: 750px;
+  bottom: 470px;
+}
