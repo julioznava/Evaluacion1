@@ -141,6 +141,7 @@ h1 {
   width: 240px;
   position: absolute;
   left: 82px;
+  border-radius: 50%;
 }
 
 .persona2 {
@@ -148,6 +149,7 @@ h1 {
   position: relative;
   left: 300px;
   bottom: 100px;
+  border-radius: 50%;
 }
 
 .persona3{
@@ -155,4 +157,5 @@ h1 {
   position: relative;
   left: 750px;
   bottom: 470px;
+  border-radius: 50%;
 }
